@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161E475A7AE7314C8EA4A518CEFBCEA6 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88D4281E829073CF746CBBAE8232741 /* QRCode.swift */; };
+		847E76ABB14F98309EBDC36CCF2B0F57 /* Pods-Resumania-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E671290BE2D26EB5424621F45E6057 /* Pods-Resumania-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B20D09853AB5EA8D4E5650DF58BEF91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
+		8DDC59BAA0468073038BAFD552793935 /* Pods-Resumania-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AA54EAB9BAFA169169CC4B146F05E8 /* Pods-Resumania-dummy.m */; };
+		B5B7FE60C56842C1D20444364D803E17 /* SwiftQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 578CC23487A5CA7BD0E3EA67493C470D /* SwiftQRCode-dummy.m */; };
+		C45BAB97AB29FE7F7C9DFF16399D403F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
+		CE32B75634810BDB577B49AC3BCD879A /* SwiftQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 518BD0CF2C6C1FCB030A31C5E9C78BD3 /* SwiftQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D30B412D3FF53E6B6EFDEEEBD0582FB7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17FF09D205F4777EEAE02467E9E4C0F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A46493BB1AA3AEDB141ED4B0AF7C1E73;
+			remoteInfo = SwiftQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B8F40276B37E5FEABE0A8220F78BA6 /* Pods-Resumania-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Resumania-resources.sh"; sourceTree = "<group>"; };
+		161B8600CFE821AF39ED95C4ECBFBAAB /* Pods-Resumania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Resumania.release.xcconfig"; sourceTree = "<group>"; };
+		283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		48A1228D035CB7BFC1765D8DDAD0C724 /* SwiftQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftQRCode.modulemap; sourceTree = "<group>"; };
+		518BD0CF2C6C1FCB030A31C5E9C78BD3 /* SwiftQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftQRCode-umbrella.h"; sourceTree = "<group>"; };
+		578CC23487A5CA7BD0E3EA67493C470D /* SwiftQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftQRCode-dummy.m"; sourceTree = "<group>"; };
+		60520930FFC1D4A38AD12BC56F6F90F2 /* SwiftQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftQRCode-prefix.pch"; sourceTree = "<group>"; };
+		7A0A7220021E978FE0978B85A2E8E449 /* Pods-Resumania-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Resumania-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9BDEB5D8EF101794C5E6CD5860BDEC42 /* Pods-Resumania.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Resumania.modulemap"; sourceTree = "<group>"; };
+		AC9EE3B66090A7BC27F18B986B63FA14 /* Pods_Resumania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resumania.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AA54EAB9BAFA169169CC4B146F05E8 /* Pods-Resumania-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Resumania-dummy.m"; sourceTree = "<group>"; };
+		D4A93FC1CE371DD69872051690B49965 /* Pods-Resumania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Resumania.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E671290BE2D26EB5424621F45E6057 /* Pods-Resumania-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Resumania-umbrella.h"; sourceTree = "<group>"; };
+		E39D4D0A2BCB814B2898C04C7285C583 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4FBFAF87CBAAE4E55BC82CA6F70D15 /* Pods-Resumania-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Resumania-frameworks.sh"; sourceTree = "<group>"; };
+		EF6F41D9B05A4D607CD6191BFE74949D /* SwiftQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftQRCode.xcconfig; sourceTree = "<group>"; };
+		F0325B371CA22B71578DA52216310586 /* Pods-Resumania-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Resumania-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F88D4281E829073CF746CBBAE8232741 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/Source/QRCode.swift; sourceTree = "<group>"; };
+		FC159F87AE7118D3123FF07F46611839 /* SwiftQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4E447F8AAD03E04A259295DB70E219 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20BCC7DF0844C09A3DE28076FDFDEE28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30B412D3FF53E6B6EFDEEEBD0582FB7 /* AVFoundation.framework in Frameworks */,
+				8B20D09853AB5EA8D4E5650DF58BEF91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6B5B3DD346788FF461E4B8F45CDB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45BAB97AB29FE7F7C9DFF16399D403F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A84967DC1748726A927A0EDAF7B859A /* Pods-Resumania */ = {
+			isa = PBXGroup;
+			children = (
+				E39D4D0A2BCB814B2898C04C7285C583 /* Info.plist */,
+				9BDEB5D8EF101794C5E6CD5860BDEC42 /* Pods-Resumania.modulemap */,
+				F0325B371CA22B71578DA52216310586 /* Pods-Resumania-acknowledgements.markdown */,
+				7A0A7220021E978FE0978B85A2E8E449 /* Pods-Resumania-acknowledgements.plist */,
+				C1AA54EAB9BAFA169169CC4B146F05E8 /* Pods-Resumania-dummy.m */,
+				EC4FBFAF87CBAAE4E55BC82CA6F70D15 /* Pods-Resumania-frameworks.sh */,
+				01B8F40276B37E5FEABE0A8220F78BA6 /* Pods-Resumania-resources.sh */,
+				E0E671290BE2D26EB5424621F45E6057 /* Pods-Resumania-umbrella.h */,
+				D4A93FC1CE371DD69872051690B49965 /* Pods-Resumania.debug.xcconfig */,
+				161B8600CFE821AF39ED95C4ECBFBAAB /* Pods-Resumania.release.xcconfig */,
+			);
+			name = "Pods-Resumania";
+			path = "Target Support Files/Pods-Resumania";
+			sourceTree = "<group>";
+		};
+		38FEFC485487EAB8DB1CE8907AA2C09E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C459AA804DF7B44CA620A95B86F7E69C /* SwiftQRCode */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40AF8D79D4382828A0EEAD80AB26358 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				38FEFC485487EAB8DB1CE8907AA2C09E /* Pods */,
+				8CFE423EBE87C28EAD5D352FDA7CD58F /* Products */,
+				CF6CEAF5666CAAD8F809F839E32B3F62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CFE423EBE87C28EAD5D352FDA7CD58F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9EE3B66090A7BC27F18B986B63FA14 /* Pods_Resumania.framework */,
+				FC159F87AE7118D3123FF07F46611839 /* SwiftQRCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40AF8D79D4382828A0EEAD80AB26358 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */,
+				96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C459AA804DF7B44CA620A95B86F7E69C /* SwiftQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F88D4281E829073CF746CBBAE8232741 /* QRCode.swift */,
+				F1DF646E08510CE2D4CEF916602A5886 /* Support Files */,
+			);
+			path = SwiftQRCode;
+			sourceTree = "<group>";
+		};
+		CF6CEAF5666CAAD8F809F839E32B3F62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A84967DC1748726A927A0EDAF7B859A /* Pods-Resumania */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F1DF646E08510CE2D4CEF916602A5886 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC4E447F8AAD03E04A259295DB70E219 /* Info.plist */,
+				48A1228D035CB7BFC1765D8DDAD0C724 /* SwiftQRCode.modulemap */,
+				EF6F41D9B05A4D607CD6191BFE74949D /* SwiftQRCode.xcconfig */,
+				578CC23487A5CA7BD0E3EA67493C470D /* SwiftQRCode-dummy.m */,
+				60520930FFC1D4A38AD12BC56F6F90F2 /* SwiftQRCode-prefix.pch */,
+				518BD0CF2C6C1FCB030A31C5E9C78BD3 /* SwiftQRCode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftQRCode";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CA03B833E49FD1185B4E978A9F66C5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32B75634810BDB577B49AC3BCD879A /* SwiftQRCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE67E013DC387706BA7EFEB78908BB71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E76ABB14F98309EBDC36CCF2B0F57 /* Pods-Resumania-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A30986F52E3CC3BF34F8E1865AC85C1D /* Pods-Resumania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D9987CD77F39C6D6B4499D6E421898 /* Build configuration list for PBXNativeTarget "Pods-Resumania" */;
+			buildPhases = (
+				CEB929DE2DC8A04A601A8B194CE90BC3 /* Sources */,
+				3B6B5B3DD346788FF461E4B8F45CDB22 /* Frameworks */,
+				AE67E013DC387706BA7EFEB78908BB71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874771E18214CEBE395BA23E822E778C /* PBXTargetDependency */,
+			);
+			name = "Pods-Resumania";
+			productName = "Pods-Resumania";
+			productReference = AC9EE3B66090A7BC27F18B986B63FA14 /* Pods_Resumania.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A46493BB1AA3AEDB141ED4B0AF7C1E73 /* SwiftQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949E197E2E93343A5A223A1E8D3988F4 /* Build configuration list for PBXNativeTarget "SwiftQRCode" */;
+			buildPhases = (
+				E17CC343CCF2B8D6C50E80D8809B0434 /* Sources */,
+				20BCC7DF0844C09A3DE28076FDFDEE28 /* Frameworks */,
+				3CA03B833E49FD1185B4E978A9F66C5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftQRCode;
+			productName = SwiftQRCode;
+			productReference = FC159F87AE7118D3123FF07F46611839 /* SwiftQRCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8CFE423EBE87C28EAD5D352FDA7CD58F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A30986F52E3CC3BF34F8E1865AC85C1D /* Pods-Resumania */,
+				A46493BB1AA3AEDB141ED4B0AF7C1E73 /* SwiftQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB929DE2DC8A04A601A8B194CE90BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDC59BAA0468073038BAFD552793935 /* Pods-Resumania-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17CC343CCF2B8D6C50E80D8809B0434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161E475A7AE7314C8EA4A518CEFBCEA6 /* QRCode.swift in Sources */,
+				B5B7FE60C56842C1D20444364D803E17 /* SwiftQRCode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		874771E18214CEBE395BA23E822E778C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftQRCode;
+			target = A46493BB1AA3AEDB141ED4B0AF7C1E73 /* SwiftQRCode */;
+			targetProxy = 17FF09D205F4777EEAE02467E9E4C0F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3719AA9148E805778D17C12F44D1FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6F41D9B05A4D607CD6191BFE74949D /* SwiftQRCode.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftQRCode/SwiftQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftQRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftQRCode/SwiftQRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		534AAE081639271538CCA2D1791C6616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161B8600CFE821AF39ED95C4ECBFBAAB /* Pods-Resumania.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Resumania/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Resumania/Pods-Resumania.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Resumania;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F2FB6A38661636982E93001D2EE9903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6F41D9B05A4D607CD6191BFE74949D /* SwiftQRCode.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftQRCode/SwiftQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftQRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftQRCode/SwiftQRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A950724349FBB205533C5333EA7DE766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A93FC1CE371DD69872051690B49965 /* Pods-Resumania.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Resumania/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Resumania/Pods-Resumania.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Resumania;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D9987CD77F39C6D6B4499D6E421898 /* Build configuration list for PBXNativeTarget "Pods-Resumania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A950724349FBB205533C5333EA7DE766 /* Debug */,
+				534AAE081639271538CCA2D1791C6616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949E197E2E93343A5A223A1E8D3988F4 /* Build configuration list for PBXNativeTarget "SwiftQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2FB6A38661636982E93001D2EE9903 /* Debug */,
+				3719AA9148E805778D17C12F44D1FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
