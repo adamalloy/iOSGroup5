@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Resumania
 //
-//  Created by Adam Alloy on 10/8/16.
-//  Copyright © 2016 Adam Alloy. All rights reserved.
+//  Created by Angel Xiao on 10/8/16.
+//  Copyright © 2016 angel. All rights reserved.
 //
 
 import UIKit

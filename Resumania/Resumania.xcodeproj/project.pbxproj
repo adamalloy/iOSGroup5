@@ -7,103 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEB45AD8BB4D871CFD51C81B /* Pods_Resumania.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF93BF6623C95240E02BF60 /* Pods_Resumania.framework */; };
-		DA449BDB1DA9AF43004A05AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA449BDA1DA9AF43004A05AC /* AppDelegate.swift */; };
-		DA449BDD1DA9AF43004A05AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA449BDC1DA9AF43004A05AC /* ViewController.swift */; };
-		DA449BE01DA9AF43004A05AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA449BDE1DA9AF43004A05AC /* Main.storyboard */; };
-		DA449BE31DA9AF43004A05AC /* Resumania.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA449BE11DA9AF43004A05AC /* Resumania.xcdatamodeld */; };
-		DA449BE51DA9AF43004A05AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA449BE41DA9AF43004A05AC /* Assets.xcassets */; };
-		DA449BE81DA9AF43004A05AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA449BE61DA9AF43004A05AC /* LaunchScreen.storyboard */; };
+		2923C4B61DA9C06600A63594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923C4B51DA9C06600A63594 /* AppDelegate.swift */; };
+		2923C4B81DA9C06600A63594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923C4B71DA9C06600A63594 /* ViewController.swift */; };
+		2923C4BB1DA9C06700A63594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2923C4B91DA9C06700A63594 /* Main.storyboard */; };
+		2923C4BE1DA9C06700A63594 /* Resumania.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2923C4BC1DA9C06700A63594 /* Resumania.xcdatamodeld */; };
+		2923C4C01DA9C06700A63594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2923C4BF1DA9C06700A63594 /* Assets.xcassets */; };
+		2923C4C31DA9C06700A63594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2923C4C11DA9C06700A63594 /* LaunchScreen.storyboard */; };
+		69AA94A88EE5D385635D47DF /* Pods_Resumania.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDADC5214B3FE69068F06E8A /* Pods_Resumania.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37784F0D1688E3E86143B29C /* Pods-Resumania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resumania.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resumania/Pods-Resumania.debug.xcconfig"; sourceTree = "<group>"; };
-		4FF93BF6623C95240E02BF60 /* Pods_Resumania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resumania.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE6F65D13350A97258621B1D /* Pods-Resumania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resumania.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resumania/Pods-Resumania.release.xcconfig"; sourceTree = "<group>"; };
-		DA449BD71DA9AF43004A05AC /* Resumania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resumania.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA449BDA1DA9AF43004A05AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA449BDC1DA9AF43004A05AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA449BDF1DA9AF43004A05AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA449BE21DA9AF43004A05AC /* Resumania.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Resumania.xcdatamodel; sourceTree = "<group>"; };
-		DA449BE41DA9AF43004A05AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA449BE71DA9AF43004A05AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DA449BE91DA9AF43004A05AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B68D542FD4D84C7037FB815 /* Pods-Resumania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resumania.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resumania/Pods-Resumania.debug.xcconfig"; sourceTree = "<group>"; };
+		2923C4B21DA9C06600A63594 /* Resumania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resumania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2923C4B51DA9C06600A63594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2923C4B71DA9C06600A63594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2923C4BA1DA9C06700A63594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2923C4BD1DA9C06700A63594 /* Resumania.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Resumania.xcdatamodel; sourceTree = "<group>"; };
+		2923C4BF1DA9C06700A63594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2923C4C21DA9C06700A63594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2923C4C41DA9C06700A63594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDADC5214B3FE69068F06E8A /* Pods_Resumania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resumania.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC28442D095310EBD3041D81 /* Pods-Resumania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resumania.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resumania/Pods-Resumania.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA449BD41DA9AF42004A05AC /* Frameworks */ = {
+		2923C4AF1DA9C06600A63594 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB45AD8BB4D871CFD51C81B /* Pods_Resumania.framework in Frameworks */,
+				69AA94A88EE5D385635D47DF /* Pods_Resumania.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		811751F7C090F5B9533B644F /* Frameworks */ = {
+		1845C2964651C7FBA04C3050 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4FF93BF6623C95240E02BF60 /* Pods_Resumania.framework */,
+				0B68D542FD4D84C7037FB815 /* Pods-Resumania.debug.xcconfig */,
+				FC28442D095310EBD3041D81 /* Pods-Resumania.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		DA449BCE1DA9AF42004A05AC = {
+		2923C4A91DA9C06600A63594 = {
 			isa = PBXGroup;
 			children = (
-				DA449BD91DA9AF43004A05AC /* Resumania */,
-				DA449BD81DA9AF43004A05AC /* Products */,
-				F301C19F3F2BE0DA3C067B9F /* Pods */,
-				811751F7C090F5B9533B644F /* Frameworks */,
+				2923C4B41DA9C06600A63594 /* Resumania */,
+				2923C4B31DA9C06600A63594 /* Products */,
+				1845C2964651C7FBA04C3050 /* Pods */,
+				2CEBFD689E2CCB7FF7FDC240 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DA449BD81DA9AF43004A05AC /* Products */ = {
+		2923C4B31DA9C06600A63594 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA449BD71DA9AF43004A05AC /* Resumania.app */,
+				2923C4B21DA9C06600A63594 /* Resumania.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA449BD91DA9AF43004A05AC /* Resumania */ = {
+		2923C4B41DA9C06600A63594 /* Resumania */ = {
 			isa = PBXGroup;
 			children = (
-				DA449BDA1DA9AF43004A05AC /* AppDelegate.swift */,
-				DA449BDC1DA9AF43004A05AC /* ViewController.swift */,
-				DA449BDE1DA9AF43004A05AC /* Main.storyboard */,
-				DA449BE41DA9AF43004A05AC /* Assets.xcassets */,
-				DA449BE61DA9AF43004A05AC /* LaunchScreen.storyboard */,
-				DA449BE91DA9AF43004A05AC /* Info.plist */,
-				DA449BE11DA9AF43004A05AC /* Resumania.xcdatamodeld */,
+				2923C4B51DA9C06600A63594 /* AppDelegate.swift */,
+				2923C4B71DA9C06600A63594 /* ViewController.swift */,
+				2923C4B91DA9C06700A63594 /* Main.storyboard */,
+				2923C4BF1DA9C06700A63594 /* Assets.xcassets */,
+				2923C4C11DA9C06700A63594 /* LaunchScreen.storyboard */,
+				2923C4C41DA9C06700A63594 /* Info.plist */,
+				2923C4BC1DA9C06700A63594 /* Resumania.xcdatamodeld */,
 			);
 			path = Resumania;
 			sourceTree = "<group>";
 		};
-		F301C19F3F2BE0DA3C067B9F /* Pods */ = {
+		2CEBFD689E2CCB7FF7FDC240 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				37784F0D1688E3E86143B29C /* Pods-Resumania.debug.xcconfig */,
-				AE6F65D13350A97258621B1D /* Pods-Resumania.release.xcconfig */,
+				BDADC5214B3FE69068F06E8A /* Pods_Resumania.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA449BD61DA9AF42004A05AC /* Resumania */ = {
+		2923C4B11DA9C06600A63594 /* Resumania */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA449BEC1DA9AF43004A05AC /* Build configuration list for PBXNativeTarget "Resumania" */;
+			buildConfigurationList = 2923C4C71DA9C06700A63594 /* Build configuration list for PBXNativeTarget "Resumania" */;
 			buildPhases = (
-				3CD1D3E2FEDF96C1E3C0B4AB /* [CP] Check Pods Manifest.lock */,
-				DA449BD31DA9AF42004A05AC /* Sources */,
-				DA449BD41DA9AF42004A05AC /* Frameworks */,
-				DA449BD51DA9AF42004A05AC /* Resources */,
-				D7C8490DB3524AC6B760F4F8 /* [CP] Embed Pods Frameworks */,
-				46FD748DAA50FDB79527E427 /* [CP] Copy Pods Resources */,
+				FF98CC8FDDDE1C73437087A8 /* [CP] Check Pods Manifest.lock */,
+				2923C4AE1DA9C06600A63594 /* Sources */,
+				2923C4AF1DA9C06600A63594 /* Frameworks */,
+				2923C4B01DA9C06600A63594 /* Resources */,
+				AF981CA5D54F54C3C166D77D /* [CP] Embed Pods Frameworks */,
+				94A70C6E1D5D4F5B268B1DA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,26 +111,27 @@
 			);
 			name = Resumania;
 			productName = Resumania;
-			productReference = DA449BD71DA9AF43004A05AC /* Resumania.app */;
+			productReference = 2923C4B21DA9C06600A63594 /* Resumania.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA449BCF1DA9AF42004A05AC /* Project object */ = {
+		2923C4AA1DA9C06600A63594 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Adam Alloy";
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = angel;
 				TargetAttributes = {
-					DA449BD61DA9AF42004A05AC = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+					2923C4B11DA9C06600A63594 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8S52Q25SQF;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = DA449BD21DA9AF42004A05AC /* Build configuration list for PBXProject "Resumania" */;
+			buildConfigurationList = 2923C4AD1DA9C06600A63594 /* Build configuration list for PBXProject "Resumania" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,46 +139,31 @@
 				en,
 				Base,
 			);
-			mainGroup = DA449BCE1DA9AF42004A05AC;
-			productRefGroup = DA449BD81DA9AF43004A05AC /* Products */;
+			mainGroup = 2923C4A91DA9C06600A63594;
+			productRefGroup = 2923C4B31DA9C06600A63594 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA449BD61DA9AF42004A05AC /* Resumania */,
+				2923C4B11DA9C06600A63594 /* Resumania */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA449BD51DA9AF42004A05AC /* Resources */ = {
+		2923C4B01DA9C06600A63594 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA449BE81DA9AF43004A05AC /* LaunchScreen.storyboard in Resources */,
-				DA449BE51DA9AF43004A05AC /* Assets.xcassets in Resources */,
-				DA449BE01DA9AF43004A05AC /* Main.storyboard in Resources */,
+				2923C4C31DA9C06700A63594 /* LaunchScreen.storyboard in Resources */,
+				2923C4C01DA9C06700A63594 /* Assets.xcassets in Resources */,
+				2923C4BB1DA9C06700A63594 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3CD1D3E2FEDF96C1E3C0B4AB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		46FD748DAA50FDB79527E427 /* [CP] Copy Pods Resources */ = {
+		94A70C6E1D5D4F5B268B1DA2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,7 +178,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resumania/Pods-Resumania-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D7C8490DB3524AC6B760F4F8 /* [CP] Embed Pods Frameworks */ = {
+		AF981CA5D54F54C3C166D77D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,34 +193,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resumania/Pods-Resumania-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FF98CC8FDDDE1C73437087A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA449BD31DA9AF42004A05AC /* Sources */ = {
+		2923C4AE1DA9C06600A63594 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA449BDD1DA9AF43004A05AC /* ViewController.swift in Sources */,
-				DA449BE31DA9AF43004A05AC /* Resumania.xcdatamodeld in Sources */,
-				DA449BDB1DA9AF43004A05AC /* AppDelegate.swift in Sources */,
+				2923C4B81DA9C06600A63594 /* ViewController.swift in Sources */,
+				2923C4BE1DA9C06700A63594 /* Resumania.xcdatamodeld in Sources */,
+				2923C4B61DA9C06600A63594 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA449BDE1DA9AF43004A05AC /* Main.storyboard */ = {
+		2923C4B91DA9C06700A63594 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA449BDF1DA9AF43004A05AC /* Base */,
+				2923C4BA1DA9C06700A63594 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DA449BE61DA9AF43004A05AC /* LaunchScreen.storyboard */ = {
+		2923C4C11DA9C06700A63594 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA449BE71DA9AF43004A05AC /* Base */,
+				2923C4C21DA9C06700A63594 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -242,11 +243,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DA449BEA1DA9AF43004A05AC /* Debug */ = {
+		2923C4C51DA9C06700A63594 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -254,13 +254,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -282,20 +279,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		DA449BEB1DA9AF43004A05AC /* Release */ = {
+		2923C4C61DA9C06700A63594 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -303,13 +298,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -325,57 +317,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DA449BED1DA9AF43004A05AC /* Debug */ = {
+		2923C4C81DA9C06700A63594 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37784F0D1688E3E86143B29C /* Pods-Resumania.debug.xcconfig */;
+			baseConfigurationReference = 0B68D542FD4D84C7037FB815 /* Pods-Resumania.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8S52Q25SQF;
 				INFOPLIST_FILE = Resumania/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.Resumania;
+				PRODUCT_BUNDLE_IDENTIFIER = angel.Resumania;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
-		DA449BEE1DA9AF43004A05AC /* Release */ = {
+		2923C4C91DA9C06700A63594 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE6F65D13350A97258621B1D /* Pods-Resumania.release.xcconfig */;
+			baseConfigurationReference = FC28442D095310EBD3041D81 /* Pods-Resumania.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8S52Q25SQF;
 				INFOPLIST_FILE = Resumania/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.Resumania;
+				PRODUCT_BUNDLE_IDENTIFIER = angel.Resumania;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA449BD21DA9AF42004A05AC /* Build configuration list for PBXProject "Resumania" */ = {
+		2923C4AD1DA9C06600A63594 /* Build configuration list for PBXProject "Resumania" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA449BEA1DA9AF43004A05AC /* Debug */,
-				DA449BEB1DA9AF43004A05AC /* Release */,
+				2923C4C51DA9C06700A63594 /* Debug */,
+				2923C4C61DA9C06700A63594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA449BEC1DA9AF43004A05AC /* Build configuration list for PBXNativeTarget "Resumania" */ = {
+		2923C4C71DA9C06700A63594 /* Build configuration list for PBXNativeTarget "Resumania" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA449BED1DA9AF43004A05AC /* Debug */,
-				DA449BEE1DA9AF43004A05AC /* Release */,
+				2923C4C81DA9C06700A63594 /* Debug */,
+				2923C4C91DA9C06700A63594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -383,17 +376,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DA449BE11DA9AF43004A05AC /* Resumania.xcdatamodeld */ = {
+		2923C4BC1DA9C06700A63594 /* Resumania.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DA449BE21DA9AF43004A05AC /* Resumania.xcdatamodel */,
+				2923C4BD1DA9C06700A63594 /* Resumania.xcdatamodel */,
 			);
-			currentVersion = DA449BE21DA9AF43004A05AC /* Resumania.xcdatamodel */;
+			currentVersion = 2923C4BD1DA9C06700A63594 /* Resumania.xcdatamodel */;
 			path = Resumania.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = DA449BCF1DA9AF42004A05AC /* Project object */;
+	rootObject = 2923C4AA1DA9C06600A63594 /* Project object */;
 }
